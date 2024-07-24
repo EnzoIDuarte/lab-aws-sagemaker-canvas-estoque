@@ -25,21 +25,15 @@ Para realização desse projeto, foi utilizado um Dataset próprio do Amazon Sag
 
 ### 2. Construir/Treinar
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+Para a construção do modelo foi utilizado Item_ID como identificador primário dos itens presentes no dataset. O modelo visa prever a demanda relacionada a determinado produto. Logo, a coluna "Target" selecionada foi a coluna demanda, agrupando pela coluna "Price". Build.JPG
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+Com relação a fase de análise, foi identificado que as métricas se aproximam do valor 0, demonstrando que o dataset utilizado apresenta uma boa consistência. Analyze.JPG
 
 ### 4. Prever
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+Para a fase de previsão, foram testados os itens com determinados valores, visando identificar os preços ideais para determinado item. Predict.JPG
 
 ## 🤔 Dúvidas?
 
