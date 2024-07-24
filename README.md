@@ -20,7 +20,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ### 1. Selecionar Dataset
 
-Para realização desse projeto, foi utilizado um Dataset próprio do Amazon SageMaker (canvas-sample-retail-electronics-forecasting.csv). Este Dataset foi importado para a criação do modelo.
+Para realização desse projeto, foi utilizado um Dataset próprio do Amazon SageMaker (canvas-sample-retail-electronics-forecasting.csv). Este Dataset foi importado para a criação do modelo. Dataset.JPG
 
 
 ### 2. Construir/Treinar
